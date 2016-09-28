@@ -1,4 +1,4 @@
-=Weatherstation micro-sensor programs=
+#Weatherstation micro-sensor programs#
 
 This repository groups various programs to monitor micro-sensors for meteorological measurements. 
 It has been built to provide K12 teachers with a package verified ans maintained by IFÉ ENS de Lyon. 
@@ -6,9 +6,10 @@ It is part of the project "Meteo Climat Tremplin pour l'enseignement
 des sciences". programs are provided in python using mraa and upm
 libraries. 
 
-==List of sensors used==
+##List of sensors used##
 
-===I2C bus===
+###I2C bus###
+
 1. BME280  
 2. HTU21D
 3. MCP9808
