@@ -149,7 +149,7 @@ def measureMeteoParams():
 				nbmes = 0
 			else :
 				nbmes += 1
-			print '%2.1f\t\t' %hygroBME +  '%.2f °C\t' %tempBME + '%.2f hPa\t' %pressBME + '%.2f hPa\t' %seaLevelPress
+			print "{0:.2f} %\t\t{1:.2f} °C\t{2:.2f} hPa\t{2:.2f} hPa".format(hygroBME,tempBME,pressBME,seaLevelPress)
 			
 			time.sleep (5)
 	else :
