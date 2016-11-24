@@ -3,10 +3,10 @@
 
 # Imports from mraa and upm libraries
 #------------------------------------
-import mraa
+import mraa, upm
 import thread, time, math
 
-import pyupm_bmp280
+from upm import pyupm_bmp280 as bme280
 
 # Constant declarations
 #----------------------
@@ -20,7 +20,7 @@ LOWER_TEMP = 0x03
 CRIT_TEMP = 0x04
 
 # create sensors on the bus 1
-bme = pyupm_bmp280.BME280(bus1)
+bme = bme280.BME280(bus1)
 #bme = pyupm_bmp280.BME280(bus1, bmeAddr)
 
 #Functions
